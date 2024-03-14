@@ -1,0 +1,93 @@
+* {
+    margin: 0;     /*color: #666666;*/
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html {
+    background-color: aliceblue;
+}
+
+header  {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(129, 74, 190);
+    padding: 16px;
+    color: #fff;
+}
+
+.container {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+form {
+    
+    background-image: url('https://th.bing.com/th/id/OIP.1Pir8S7Ooohp3D2enPiI7wAAAA?rs=1&pid=ImgDetMain');
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+
+.container img {
+    width: 36px;
+}
+
+
+#contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    border-top: 30px;
+    margin-top: 110px;
+    background-size: cover;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.form-campo {
+    margin-bottom: 16px;   
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input,
+.form-campo textarea {
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+.form-campo textarea {
+    resize: none;
+    height: 120px;
+}
+
+footer p {
+    text-align:center;
+    display: block;
+    justify-content: space-between;
+    background-color:  rgb(129, 74, 190);
+    padding: 16px;
+    color: #fff;
+    font-size: medium;
+    margin-top: 248px;
+}
